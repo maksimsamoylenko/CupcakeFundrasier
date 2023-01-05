@@ -11,6 +11,9 @@
 
 <h1> Cupcake Choices...</h1>
 <form method="post" action="confirm.php">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" >
+
     <label><input type="checkbox" value="grasshopper" name="flavor[]">The Grasshopper</label>
     <label><input type="checkbox" value="whiskey" name="flavor[]">Whiskey Maple Bacon</label>
     <label><input type="checkbox" value="carrotwalnut" name="flavor[]">Carrot Walnut</label>
