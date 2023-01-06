@@ -1,3 +1,11 @@
+<!--
+Name: Maksim Samoylenko & Sukanvisa Pearyoo
+Date: 1/5/2023
+URL: https://github.com/maksimsamoylenko/CupcakeFundrasier
+Summary: Using forms, type your name and choose your cupcake flavor(s),
+after submitting, gives a receipt of users input, and price at the end.
+-->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,6 +20,8 @@
 <?php
 $flavor = $_POST['flavor'];
 
+// If a flavor was selected, print out thank you message, and summary of order,
+// and print total cost of order
 if (isset($flavor)){
     echo "<h1>Thank you, " . $_POST['name'] .  " for your order!</h1>";
     echo "<p> Order Summary: </p>";
