@@ -14,13 +14,13 @@
     <label for="name">Your Name:</label>
     <input type="text" id="name" name="name" >
 
-    <label><input type="checkbox" value="grasshopper" name="flavor[]">The Grasshopper</label>
-    <label><input type="checkbox" value="whiskey" name="flavor[]">Whiskey Maple Bacon</label>
-    <label><input type="checkbox" value="carrotwalnut" name="flavor[]">Carrot Walnut</label>
-    <label><input type="checkbox" value="saltedcaramel" name="flavor[]">Salted Caramel Cupcake</label>
-    <label><input type="checkbox" value="redvelvet" name="flavor[]">Red Velvet</label>
-    <label><input type="checkbox" value="lemondrop" name="flavor[]">Lemon Drop</label>
-    <label><input type="checkbox" value="tiramisu" name="flavor[]">Tiramisu</label>
+    <label><input type="checkbox" value="The Grasshopper" name="flavor[]">The Grasshopper</label>
+    <label><input type="checkbox" value="Whiskey Maple Bacon" name="flavor[]">Whiskey Maple Bacon</label>
+    <label><input type="checkbox" value="Carrot Walnut" name="flavor[]">Carrot Walnut</label>
+    <label><input type="checkbox" value="Salted Caramel Cupcake" name="flavor[]">Salted Caramel Cupcake</label>
+    <label><input type="checkbox" value="Red Velvet" name="flavor[]">Red Velvet</label>
+    <label><input type="checkbox" value="Lemon Drop" name="flavor[]">Lemon Drop</label>
+    <label><input type="checkbox" value="Tiramisu" name="flavor[]">Tiramisu</label>
     <input type="submit" value="Submit">
 </form>
 
