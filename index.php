@@ -1,3 +1,11 @@
+<!--
+Name: Maksim Samoylenko & Sukanvisa Pearyoo
+Date: 1/5/2023
+URL: https://github.com/maksimsamoylenko/CupcakeFundrasier
+Summary: Using forms, type your name and choose your cupcake flavor(s),
+after submitting, gives a receipt of users input, and price at the end.
+-->
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,9 +19,10 @@
 
 <h1> Cupcake Choices...</h1>
 <form method="post" action="confirm.php">
+<!--    User types their name here -->
     <label for="name">Your Name:</label>
     <input type="text" id="name" name="name" >
-
+<!-- User selects their choice of cupcake flavor(s)-->
     <label><input type="checkbox" value="The Grasshopper" name="flavor[]">The Grasshopper</label>
     <label><input type="checkbox" value="Whiskey Maple Bacon" name="flavor[]">Whiskey Maple Bacon</label>
     <label><input type="checkbox" value="Carrot Walnut" name="flavor[]">Carrot Walnut</label>
